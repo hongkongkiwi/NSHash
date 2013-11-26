@@ -19,9 +19,12 @@
 @interface NSData (NSHash_AdditionalHashingAlgorithms)
 
 - (NSData*) MD5;
+- (NSString*) MD5String;
 
 - (NSData*) SHA1;
+- (NSString*) SHA1String;
 
 - (NSData*) SHA256;
+- (NSString*) SHA256String;
 
 @end
