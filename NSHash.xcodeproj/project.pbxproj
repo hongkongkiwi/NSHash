@@ -17,6 +17,13 @@
 		59F6630416793AF700451DF8 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6630216793AF700451DF8 /* NSData+NSHash.m */; };
 		59F6630716793B1A00451DF8 /* NSString+NSHashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6630616793B1A00451DF8 /* NSString+NSHashTests.m */; };
 		59F6630A16793B4B00451DF8 /* NSData+NSHashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6630916793B4B00451DF8 /* NSData+NSHashTests.m */; };
+		A1EECAD81AEF211E00DBAAE3 /* NSHash iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EECAD71AEF211E00DBAAE3 /* NSHash iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EECADE1AEF211E00DBAAE3 /* NSHash_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EECAD31AEF211E00DBAAE3 /* NSHash_iOS.framework */; };
+		A1EECAE51AEF211E00DBAAE3 /* NSHash_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1EECAE41AEF211E00DBAAE3 /* NSHash_iOSTests.m */; };
+		A1EECAEC1AEF212F00DBAAE3 /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F662FD16793AD400451DF8 /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EECAED1AEF213100DBAAE3 /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F6630116793AF700451DF8 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EECAEE1AEF213900DBAAE3 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F662FE16793AD400451DF8 /* NSString+NSHash.m */; };
+		A1EECAEF1AEF213C00DBAAE3 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6630216793AF700451DF8 /* NSData+NSHash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 59F662CC1679386900451DF8;
 			remoteInfo = NSHash;
+		};
+		A1EECADF1AEF211E00DBAAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F662C41679386900451DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1EECAD21AEF211E00DBAAE3;
+			remoteInfo = "NSHash iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -47,6 +61,12 @@
 		59F6630616793B1A00451DF8 /* NSString+NSHashTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHashTests.m"; sourceTree = "<group>"; };
 		59F6630816793B4B00451DF8 /* NSData+NSHashTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHashTests.h"; sourceTree = "<group>"; };
 		59F6630916793B4B00451DF8 /* NSData+NSHashTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHashTests.m"; sourceTree = "<group>"; };
+		A1EECAD31AEF211E00DBAAE3 /* NSHash_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSHash_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EECAD61AEF211E00DBAAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EECAD71AEF211E00DBAAE3 /* NSHash iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSHash iOS.h"; sourceTree = "<group>"; };
+		A1EECADD1AEF211E00DBAAE3 /* NSHash iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSHash iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EECAE31AEF211E00DBAAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EECAE41AEF211E00DBAAE3 /* NSHash_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSHash_iOSTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +88,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1EECACF1AEF211E00DBAAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EECADA1AEF211E00DBAAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EECADE1AEF211E00DBAAE3 /* NSHash_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +113,8 @@
 				59F662F91679392500451DF8 /* LICENSE.txt */,
 				59F662D61679386900451DF8 /* NSHash */,
 				59F662E81679386900451DF8 /* NSHashTests */,
+				A1EECAD41AEF211E00DBAAE3 /* NSHash iOS */,
+				A1EECAE11AEF211E00DBAAE3 /* NSHash iOSTests */,
 				59F662CF1679386900451DF8 /* Frameworks */,
 				59F662CE1679386900451DF8 /* Products */,
 			);
@@ -88,6 +125,8 @@
 			children = (
 				59F662CD1679386900451DF8 /* NSHash.dylib */,
 				59F662E11679386900451DF8 /* NSHashTests.octest */,
+				A1EECAD31AEF211E00DBAAE3 /* NSHash_iOS.framework */,
+				A1EECADD1AEF211E00DBAAE3 /* NSHash iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +173,40 @@
 			path = NSHashTests;
 			sourceTree = "<group>";
 		};
+		A1EECAD41AEF211E00DBAAE3 /* NSHash iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1EECAD71AEF211E00DBAAE3 /* NSHash iOS.h */,
+				A1EECAD51AEF211E00DBAAE3 /* Supporting Files */,
+			);
+			path = "NSHash iOS";
+			sourceTree = "<group>";
+		};
+		A1EECAD51AEF211E00DBAAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EECAD61AEF211E00DBAAE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1EECAE11AEF211E00DBAAE3 /* NSHash iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EECAE41AEF211E00DBAAE3 /* NSHash_iOSTests.m */,
+				A1EECAE21AEF211E00DBAAE3 /* Supporting Files */,
+			);
+			path = "NSHash iOSTests";
+			sourceTree = "<group>";
+		};
+		A1EECAE21AEF211E00DBAAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EECAE31AEF211E00DBAAE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -143,6 +216,16 @@
 			files = (
 				59F662FF16793AD400451DF8 /* NSString+NSHash.h in Headers */,
 				59F6630316793AF700451DF8 /* NSData+NSHash.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EECAD01AEF211E00DBAAE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EECAD81AEF211E00DBAAE3 /* NSHash iOS.h in Headers */,
+				A1EECAEC1AEF212F00DBAAE3 /* NSString+NSHash.h in Headers */,
+				A1EECAED1AEF213100DBAAE3 /* NSData+NSHash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +266,43 @@
 			name = NSHashTests;
 			productName = NSHashTests;
 			productReference = 59F662E11679386900451DF8 /* NSHashTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+		A1EECAD21AEF211E00DBAAE3 /* NSHash_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EECAE61AEF211E00DBAAE3 /* Build configuration list for PBXNativeTarget "NSHash_iOS" */;
+			buildPhases = (
+				A1EECACE1AEF211E00DBAAE3 /* Sources */,
+				A1EECACF1AEF211E00DBAAE3 /* Frameworks */,
+				A1EECAD01AEF211E00DBAAE3 /* Headers */,
+				A1EECAD11AEF211E00DBAAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSHash_iOS;
+			productName = "NSHash iOS";
+			productReference = A1EECAD31AEF211E00DBAAE3 /* NSHash_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1EECADC1AEF211E00DBAAE3 /* NSHash iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EECAE91AEF211E00DBAAE3 /* Build configuration list for PBXNativeTarget "NSHash iOSTests" */;
+			buildPhases = (
+				A1EECAD91AEF211E00DBAAE3 /* Sources */,
+				A1EECADA1AEF211E00DBAAE3 /* Frameworks */,
+				A1EECADB1AEF211E00DBAAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EECAE01AEF211E00DBAAE3 /* PBXTargetDependency */,
+			);
+			name = "NSHash iOSTests";
+			productName = "NSHash iOSTests";
+			productReference = A1EECADD1AEF211E00DBAAE3 /* NSHash iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,6 +312,14 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = buenocode;
+				TargetAttributes = {
+					A1EECAD21AEF211E00DBAAE3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A1EECADC1AEF211E00DBAAE3 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
 			};
 			buildConfigurationList = 59F662C71679386900451DF8 /* Build configuration list for PBXProject "NSHash" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -208,12 +335,28 @@
 			targets = (
 				59F662CC1679386900451DF8 /* NSHash */,
 				59F662E01679386900451DF8 /* NSHashTests */,
+				A1EECAD21AEF211E00DBAAE3 /* NSHash_iOS */,
+				A1EECADC1AEF211E00DBAAE3 /* NSHash iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		59F662DE1679386900451DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EECAD11AEF211E00DBAAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EECADB1AEF211E00DBAAE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,6 +400,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1EECACE1AEF211E00DBAAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EECAEE1AEF213900DBAAE3 /* NSString+NSHash.m in Sources */,
+				A1EECAEF1AEF213C00DBAAE3 /* NSData+NSHash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EECAD91AEF211E00DBAAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EECAE51AEF211E00DBAAE3 /* NSHash_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -264,6 +424,11 @@
 			isa = PBXTargetDependency;
 			target = 59F662CC1679386900451DF8 /* NSHash */;
 			targetProxy = 59F662E51679386900451DF8 /* PBXContainerItemProxy */;
+		};
+		A1EECAE01AEF211E00DBAAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1EECAD21AEF211E00DBAAE3 /* NSHash_iOS */;
+			targetProxy = A1EECADF1AEF211E00DBAAE3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -324,18 +489,22 @@
 		59F662F41679386900451DF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Debug;
 		};
 		59F662F51679386900451DF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Release;
 		};
@@ -359,6 +528,158 @@
 			};
 			name = Release;
 		};
+		A1EECAE71AEF211E00DBAAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "NSHash iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1EECAE81AEF211E00DBAAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "NSHash iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1EECAEA1AEF211E00DBAAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "NSHash iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1EECAEB1AEF211E00DBAAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "NSHash iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -378,12 +699,30 @@
 				59F662F51679386900451DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59F662F61679386900451DF8 /* Build configuration list for PBXNativeTarget "NSHashTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59F662F71679386900451DF8 /* Debug */,
 				59F662F81679386900451DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EECAE61AEF211E00DBAAE3 /* Build configuration list for PBXNativeTarget "NSHash_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EECAE71AEF211E00DBAAE3 /* Debug */,
+				A1EECAE81AEF211E00DBAAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1EECAE91AEF211E00DBAAE3 /* Build configuration list for PBXNativeTarget "NSHash iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EECAEA1AEF211E00DBAAE3 /* Debug */,
+				A1EECAEB1AEF211E00DBAAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
